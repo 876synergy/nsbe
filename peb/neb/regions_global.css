@@ -1,0 +1,625 @@
+/*REGIONS --------------------------*/
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu+Condensed);
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
+h1,h2{font-family:'Oswald',sans-serif;font-weight:400}
+
+@font-face{font-family:'Conv_BEBAS';src:url('http://www.nsbe.org/CMSTemplates/NSBE/font/BEBAS.eot');src:local('?'),url('http://www.nsbe.org/CMSTemplates/NSBE/font/BEBAS.woff') format('woff'),url('http://www.nsbe.org/CMSTemplates/NSBE/font/BEBAS.ttf') format('truetype'),url('http://www.nsbe.org/CMSTemplates/NSBE/font/BEBAS.svg') format('svg');font-weight:normal;font-style:normal}
+
+@font-face {
+	font-family: 'Conv_HelveticaNeueLTStd-MdCn';
+	src: url('http://www.nsbe.org/CMSTemplates/NSBE/font/HelveticaNeueLTStd-MdCn.eot');
+	src: local('?'), url('http://www.nsbe.org/CMSTemplates/NSBE/font/HelveticaNeueLTStd-MdCn.woff') format('woff'), url('http://www.nsbe.org/CMSTemplates/NSBE/font/HelveticaNeueLTStd-MdCn.ttf') format('truetype'), url('http://www.nsbe.org/CMSTemplates/NSBE/font/HelveticaNeueLTStd-MdCn.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body{ margin:0; font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; font-size:13px; color:#333; background-color:#fff}
+a{ color:#08c}
+p{ font-size:16px}
+h1,h2,h3,h4,h5,h6{ color:#333}
+.page-header{ border-bottom:1pxpx solid #eee}
+hr{ border-top:1px solid #e5e5e5; border-bottom:1px solid #fff}
+select,textarea,input[type="text"],input[type="password"],input[type="datetime"],input[type="datetime-local"],input[type="date"],input[type="month"],input[type="time"],input[type="week"],input[type="number"],input[type="email"],input[type="url"],input[type="search"],input[type="tel"],input[type="color"],.uneditable-input{ background-color:#fff; padding:4px 4px 4px 4px; font-size:13px; color:#555; border:1px solid #ccc}
+.well{ background-color:#f5f5f5}
+.btn-danger{ background-color:#841827; *background-color:#841827; background-image:-moz-linear-gradient(top,#c74f5b,#841827);  background-image:-webkit-gradient(linear,0 0,0 100%,from(#c74f5b),to(#841827)); background-image:-webkit-linear-gradient(top,#c74f5b,#841827); background-image:-o-linear-gradient(top,#c74f5b,#841827); background-image:linear-gradient(to bottom,#c74f5b,#841827);  background-repeat:repeat-x; border-color:#bd362f #bd362f #841827; border-color:rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffee5f5b',endColorstr='#ffbd362f',GradientType=0); filter:progid:DXImageTransform.Microsoft.gradient(enabled=false)}
+.btn-danger:hover{ background-color:#841827}
+.btn{font-family: 'Conv_HelveticaNeueLTStd-MdCn'; font-weight:normal !important;}
+/********************************************************************** Background slideshow  *****************************************************************/
+.fluid_container{bottom:0;height:525px;left:0;position:relative;right:0;top:0;z-index:0}
+#camera_wrap_4{bottom:0;height:525px;left:0;margin-bottom:0!important;position:absolute;right:0;top:0}
+.camera_bar{z-index:2}
+.camera_thumbs{margin-top:-100px;position:relative;z-index:1}
+.camera_thumbs_cont{border-radius:0;-moz-border-radius:0;-webkit-border-radius:0}
+.camera_overlayer{opacity:.1}
+
+/********************************************************************** Header  *****************************************************************/
+header{overflow:visible;height:525px}
+header.inner{ height:145px;}
+header.inner #topmenu{ top:0;}
+header.push{ overflow:hidden;}
+.height{ height:30px;}
+.logo{ background-position: top center; display:block;}
+#bgss{height:525px}
+#bgss.alt{background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/green/body_bg_a.jpg) center top repeat}
+#topmenu{z-index:500;position:relative;top:-530px}
+#topmenu .navbar{ margin-bottom:0; overflow:visible;  z-index:200;}
+.menu_gradient{background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/green/header.jpg);height:144px;box-shadow:0 2px 2px #555}
+.topmenu{ margin-left:0px!important;margin-top:94px;float:left!important;position: relative;right: 20px;}
+.topmenu ul{margin:0;padding:0}
+.topmenu ul li{float:left;list-style:none; position:relative; }
+.topmenu ul ul{position:absolute; top:50px; left:0; width:220px; border:0; display:none;}
+.topmenu ul li:hover ul{ display:block}
+.topmenu ul ul ul{ position:absolute; top:0; left:220px; display:none}
+.topmenu ul li:hover ul  ul{ display:none;}
+.topmenu ul ul li:hover ul{ display:block}
+.topmenu ul ul li{ display:block; float:none; }
+
+.topmenu ul ul li a:hover{ /*background-image:url(http://www.nsbe.org/CMSTemplates/NSBE/images/green/menu_h.jpg) bottom center !important;*/ color:#6aa247;}
+
+
+header div#topmenu.row-fluid div.container div.row-fluid div.span5{
+				height: 91px!important;
+			}
+			
+			#topmenu .topmenu{
+				float: left!important;
+				width: 100%;
+				margin: 0;
+				text-align: center;
+			}
+			.topmenu ul li{
+				float: none;
+				display: inline-block;
+			}
+			.topmenu ul li li{
+				text-align: left;
+			}
+			.topmenu .in ul li{
+				display: block;
+			}
+			.navbar .btn-navbar{
+				top: -91px!important;
+			}
+			.in.collapse{
+				top: -26px!important;
+			}
+
+:root *>.region {left: 347px;position: relative;top: -145px; z-index: 1;width:265px!important; height:97px!important;background-size:265px}
+
+.header_right {left: 607px;position: relative;top: -238px;z-index: 1;height: 96px;width: 406px;}
+.navbar-inner{background:none;box-shadow:0 0 0;border-radius:0;border:0;padding:0px}
+.navbar .brand{display:none}
+.navbar .btn-navbar{ padding:27px 20px; position:absolute; right:10px; top:2px}
+.span5{position:relative}
+header div#topmenu.row-fluid div.container div.row-fluid div.span5{height:145px;}
+#banner_buttons{   position: relative;   top: -30px;}
+
+.banner_buttons a:hover{text-decoration:none}
+.banner_buttons{top:-480px;position:absolute;right:20px}
+
+.banner_buttons .banner_h{display:block;height:33px;background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/green/banner_header_bg.png) #000 no-repeat top right;padding-right:70px;padding-left:10px;line-height:33px;color:#fff;font-size:12px}
+.banner_buttons .banner_h:hover{background-color:#222}
+.banner_buttons .big_btn{background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/green/bullet_1.png) #ac2836 no-repeat top left;line-height:74px;display:block;padding-left:85px;color:#fff;margin:5px 0;font-size:26px}
+.banner_buttons .big_btn a{color:#fff;display:block}
+.banner_buttons .big_btn:hover{background-color:#980f1d}
+.banner_buttons .big_btn.b3{background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/green/bullet_3.png) no-repeat top left #4d94c8}
+.banner_buttons .big_btn.b3:hover{background-color:#2575b0}
+.pushit{top:-480px;position:relative}
+.pushit .banner_buttons{top:0; right:0; position:relative}
+.carousel-inner{border:10px solid #fff;width:98%;box-shadow:0 0 1px #999}
+
+.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {width: 1000px;}
+#cwrap img {width:1000px}
+/****************************************************************  Green Block  ***********************************************************************/
+.green_bg.home .container .span4 {
+  height: 200px;
+  position: relative;
+  top: -120px;
+}
+.green_bg .container{background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/green/shadow_big.png) center top no-repeat}
+#myTab{margin-bottom:5px;}
+#myTabContent{color:#fff;}
+#myTabContent .tweets ul{margin:0;padding:0}
+#myTabContent .tweets ul li h4{margin-bottom:2px;font-size:14px;color:#fff;margin-top:3px}
+
+
+.app{background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/green/apply.jpg) no-repeat #000 top right;width:100%;height:33px;font-family:'Oswald',sans-serif}
+.app a{padding:7px 0px 0px 10px;position:relative;display:block;font-size:11px;color:#FFF;font-weight:bold;text-decoration:none}
+.scho{background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/green/scholarship.jpg) no-repeat #AC2836 center left;width:100%;height:74px;margin:5px 0px}
+.scho a{font-size:22px;padding:27px 0px 0px 90px;text-decoration:none;color:#fff;position:relative;display:block;font-family:'Oswald',sans-serif}
+.conf{background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/green/conferences.jpg)  no-repeat #6AA247 center left;width:100%;height:74px;margin:5px 0px}
+.conf a{font-size:22px;padding:27px 0px 0px 90px;text-decoration:none;color:#fff;position:relative;display:block;font-family:'Oswald',sans-serif}
+.conv{background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/green/conventions.jpg) no-repeat #4D94C8 center left;width:100%;height:74px;margin:5px 0px}
+.conv a{font-size:22px;padding:27px 0px 0px 90px;text-decoration:none;color:#fff;position:relative;display:block;font-family:'Oswald',sans-serif}
+div.container div.span4 div.ue a{text-align:center}
+div.container div.span4 div.ue a span{display:block;text-align:center;font-size:22px;line-height:26px}
+.ue h3{color:#FFF;margin-top:0;line-height:20px;display:block;font-size:14px;margin-bottom:0;display:block}
+.ue h3 a{padding:0;margin:0;background:transparent;display:block;float:none;text-align:left !important}
+.nav{ margin-bottom:10px}
+.nav-tabs >li{ margin-bottom:0}
+
+/***********************************************************   Body Blocks   ****************************************************************************/
+.white_bg .span4 h2 {
+  text-shadow: 0 0 0 rgb(17, 17, 17);
+  font-weight:normal;
+}
+.white_bg{background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/green/cfa_bg.jpg) #fff repeat-x;border-bottom:5px solid #f2f2f2;}
+.white_bg h2{color:#000;text-shadow:0 0 0;font-size:22px}
+.small_btn{background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/green/bullet_1_a.png) #ac2836 no-repeat top left;line-height:44px;display:block;padding-left:55px;color:#fff;margin:5px 0;font-size:20px}
+.small_btn a{color:#fff;display:block;text-shadow:0 0 0}
+.small_btn a:hover{text-decoration:none}
+.small_btn:hover{background-color:#980f1d}
+
+.small_btn.b3{background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/green/bullet_3_a.png) no-repeat top left #4d94c8}
+.small_btn.b3:hover{background-color:#2575b0}
+.center{text-align:center;display:inline-block}
+.rightmark{margin:0;padding:0}
+.rightmark li h4{font-size:16px;margin:0}
+.rightmark li h4 a{color:#000;text-decoration:none}
+
+.btn-center{width:150px;margin:0 auto;display:block;margin-top:20px}
+
+
+#sidebar{ position:relative;}
+#sidebar div.ue h3 a {
+  text-align: center;
+  color:#333;
+}
+#sidebar div.ue p{ color:#333;}
+#the_content h1{padding:0 0 0 0px; font-weight:bold; color:#666; font-size:20px; font-weight:normal;}
+#the_content h2{padding:0 0 0 0px; font-size:12px !important; font-family:Arial, Helvetica, sans-serif; line-height:15px; font-weight:bold; color:#222;}
+
+#the_content p,
+#the_content{ color:#666; font-size:12px;}
+#the_content a{ color:#980F1D; text-decoration:underline;}
+img.pull-left{ margin:0 20px 20px 0;}
+img.pull-right{ margin:0 0 20px 20px;}
+
+/************************************************************* Side Menu Bar  *******************************************************************************/
+.icon_pin{ background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/i_pin.png) no-repeat; width:28px; height:28px; display:inline-block; position:relative; top:5px; }
+.icon_photo{background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/i_photo.png) no-repeat; width:28px; height:28px; display:inline-block;position:relative; top:5px; }
+.icon_chat{background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/i_chat.png) no-repeat; width:28px; height:28px; display:inline-block;position:relative;top:5px; }
+.icon_umbrella{background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/i_umbrella.png) no-repeat; width:28px; height:28px; display:inline-block;position:relative;top:5px; }
+.icon_link{background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/i_link.png) no-repeat; width:28px; height:28px; display:inline-block;position:relative;top:5px; }
+
+#sidebar .navbar{margin-bottom:0;}
+#sidebar .sidemenu h3{background:#555; color:#fff;  cursor:pointer;text-align:left; font-family:'Oswald',sans-serif; font-size:16px !important;  font-weight:normal; text-shadow:0 1px 1px #333; margin:0; padding:0 10px; position:relative; margin-bottom:0;border-bottom:1px solid #fff;}
+#sidebar .sidemenu h3.active{background:#222;}
+
+#sidebar .sidemenu h3 i{position:absolute; top:15px; right:15px; font-size:12px;}
+#sidebar .sidemenu ul{color:#fff; text-align:left; font-family:'arial'; font-size:16px; margin:0; padding:0; background:#fff; }
+#sidebar .sidemenu ul li{background:#e3e3e3; list-style:none; margin:1px 0 0 0;}
+#sidebar .sidemenu ul li a{padding:5px 15px;color:#555555;font-weight:bold; line-height:20px; display:inline-block; font-size:14px;}
+#sidebar .sidemenu ul li a:hover{ text-decoration:none;}
+#sidebar .sidemenu ul li ul{background:#eeeeee !important;display:none;}
+#sidebar .sidemenu ul li ul li{background:#fff;border-top:1px dotted #b8b8b8; color:#c6c6c6;  list-style: disc inside ; padding-left:10px;}
+#sidebar .sidemenu ul li ul li a{color:#6d6d6d; font-weight:normal; padding-left:0;}
+#sidebar .sidemenu ul li ul li a:hover{color:#555; text-decoration:none;}
+#sidebar .sidemenu .drop_nav{display:none;}
+#sidebar .small_btn a{ font-weight:normal;font-size:18px;}
+#sidebar .btn-center{   font-family: 'Conv_BEBAS';}
+
+
+.footer_button a:hover{text-decoration:none}
+.footer_button{top:0px;position:relative;right:0px; margin:20px auto}
+.footer_button .banner_h{display:block;height:33px;background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/green/banner_header_bg.png) #000 no-repeat top right;padding-right:70px;padding-left:10px;line-height:33px;color:#fff;font-size:14px}
+.footer_button .banner_h:hover{background-color:#222}
+.footer_button .big_btn{background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/green/bullet_1.png) #ac2836 no-repeat top left;line-height:74px;display:block;padding-left:85px;color:#fff;margin:5px 0;font-size:26px}
+.footer_button .big_btn a{color:#fff;display:block;text-transform:uppercase;}
+.footer_button .big_btn:hover{background-color:#980f1d;}
+
+.footer_button .big_btn.b3{background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/green/bullet_3.png) no-repeat top left #4d94c8}
+.footer_button .big_btn.b3:hover{background-color:#2575b0}
+/************************************************************* Footer **************************************************************************/
+footer{background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/green/footer_bg.png);color:#393939;font-size:14px;padding-bottom:20px}
+footer h3{color:#393939;margin-top:0;line-height:20px;display:block;font-size:14px;margin-bottom:0;display:block;padding:10px 0 15px 0;font-family:'Oswald',sans-serif;font-size:18px;font-weight:normal}
+footer a{margin-right:2px}
+footer ul{ margin:0 0 10px 15px}
+footer ul li{color:#a9283a}
+footer ul li a{color:#393939}
+footer p{font-size:13px}
+.btn.alt{border-radius:20px;text-transform:uppercase;font-weight:bold;line-height:25px;color:#fff;text-decoration:none}
+.social ul{margin:0;padding:0}
+.social ul li{list-style-type:none;float:left;background:#4e4e4e;border-radius:3px;margin:0 5px 0 0}
+.social ul li a{display:block;color:#fff;padding:5px;margin:0}
+.social ul li a:hover{color:#ccc;text-decoration:none;background:#000}
+.btn-black{color:#000 !important;margin:5px 0}
+.rounded{border-radius:20px;-moz-border-radius:20px;-webkit-border-radius:20px}
+input.search{background:#eaeaea;border:0;border-radius:20px;-moz-border-radius:20px;-webkit-border-radius:20px;border-bottom:1px solid #fff;width:200px;margin-top:7px; border-left:1px solid #fff; border-right:1px solid #fff}
+input.header-search{background:#eaeaea;border:0;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;border-bottom:1px solid #fff;width:155px;margin-top:7px; border-left:1px solid #fff; border-right:1px solid #fff;padding-right:30px}
+
+:root *>.search-icon {background: url(http://www.nsbe.org/CMSTemplates/NSBE/images/search-icon.png) -2px -4px no-repeat;border: none;text-indent: -99999px;color: #fff;text-decoration: none;background-size: 30px;width: 30px!important;position: relative;left: -35px;}
+.search-icon {filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.nsbe.org/CMSTemplates/NSBE/images/search-icon.png',sizingMethod='scale');-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.nsbe.org/CMSTemplates/NSBE/images/search-icon.png',sizingMethod='scale')";border: none;text-indent: -99999px;color: #fff;text-decoration: none;background-size: 30px;width: 30px!important;height:30px;position: relative;left: -35px;}
+
+.header_icons{display:inline-block;float:right!important;width:21.93617%!important;position: relative;top: 10px;left: -31px;}
+.header_right .searchBox{display:inline-block;float:right;}
+.pull-right li ul li:last-child{ border:0 none; }
+.pull-right li ul li a{color:#6aa247 !important;}
+.topmenu ul ul{/*width:145px ;*/left:-15px;}
+.topmenu ul ul ul{left:212px;z-index: 99999;}
+#divtoggle{position: absolute;z-index: 99;right: 15%;}
+#btntoggle{height: 60px!important;width: 60px!important;display: inline-block;}
+:root *>.plus{background: url(http://www.nsbe.org/CMSTemplates/NSBE/images/plus.png) 0px 0px no-repeat;background-size:60px}
+:root *>.minus{background: url(http://www.nsbe.org/CMSTemplates/NSBE/images/minus.png) 0px 0px no-repeat;background-size:60px}
+.plus{filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.nsbe.org/CMSTemplates/NSBE/images/plus.png',sizingMethod='scale');-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.nsbe.org/CMSTemplates/NSBE/images/plus.png',sizingMethod='scale')";border: none;text-indent: -99999px;color: #fff;text-decoration: none;width: 60px!important;height:60px;position: relative;}
+.minus{filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.nsbe.org/CMSTemplates/NSBE/images/minus.png',sizingMethod='scale');-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.nsbe.org/CMSTemplates/NSBE/images/minus.png',sizingMethod='scale')";border: none;text-indent: -99999px;color: #fff;text-decoration: none;width: 60px!important;height:60px;position: relative;}
+#header_user_menu{margin-bottom: 10px;}
+#header_user_menu ul {margin: 0;padding: 0;list-style: none;font-size: 12px;font-weight: bold;font-family: Arial, Helvetica, sans-serif;}
+#header_user_menu ul li a {color: #9c9c9c;font-size: 12px;font-weight: bold;margin: 0 4px;display: inline;text-decoration:none;font-family: Arial, Helvetica, sans-serif;}
+
+.pull-right ul li a{	font-family:'Droid Sans', sans-serif ;	font-weight:normal !important;}
+.banner_buttons h2 a,.camera_caption, .camera_caption h2 a, .camera_caption h2, .nav-tabs > .active > a, .nav-tabs > .active > a:hover, .nav-tabs > .active > a:focus, .nav-tabs > li > a, .ue a, #myTabContent .tweets ul li h4,html body footer div.container div#footer_widjet.container div.row-fluid div.span4 form input.search{font-family: 	'Oswald',?sans-serif; }
+.camera_caption, .camera_caption h2 a, .camera_caption h2,.nav-tabs > .active > a, .nav-tabs > .active > a:hover, .nav-tabs > .active > a:focus,.nav-tabs > li > a,.ue a,#myTabContent .tweets ul li h4{	font-weight:normal !important;}
+.banner_buttons .banner_h,.banner_buttons h2 a{	text-transform:uppercase;}
+.camera_caption div div .container,.camera_caption div div{	font-family:Arial, Helvetica, sans-serif;	opacity:0.7;}
+div.ue p,div.ue h3,ul#myTab li a,html body section.green_bg div.container div.row-fluid div.span4 div div.bs-docs-example div#myTabContent.tab-content div#twitter_tab.tab-pane div.tweets ul li h4,#myTabContent .tweets ul li p,#myTabContent .tweets ul li a,ul.rightmark,html body footer div.container div#footer_widjet.container div.row-fluid div.span4 p{	font-family:Arial, Helvetica, sans-serif;}
+.green_bg div.row-fluid div h2,.btn.alt,{	color:#f1ea62;}
+ul#myTab li a{	text-transform:uppercase;}
+.btn-center{	text-transform:uppercase;}
+footer ul li a{	font-family:Arial, Helvetica, sans-serif;}
+html body footer div.container div#footer_widjet.container div.row-fluid div.span4 a.btn,{	font-weight:lighter;}
+html body footer div.container div#footer_widjet.container div.row-fluid div.span4 form input.search{	font-style:italic;	font-weight:normal;}
+
+
+
+/************************************************************* Responsive Blocks **************************************************************************/
+@media (min-width:1200px){}
+ /* Portrait tablet to landscape and desktop */
+ @media (min-width:768px) and (max-width:979px){.nav-collapse{background:#D7D7D7}
+.topmenu ul li{float:none;display:block}
+.topmenu ul li a{padding:0 10px;display:block;line-height:30px;border:0;font-size:16px}
+.topmenu ul li:hover a,.topmenu ul li.active a{border:0;text-decoration:none}
+.topmenu ul{ float:none; margin:0 auto;margin-bottom:10px; width:95%}
+.navbar-inner{width:94%}
+.nav-collapse{box-shadow:0 2px 2px #555}
+.camera_wrap img{max-width:none !important}
+.collapse{ position:absolute; right:15px; top:86px; width:310px; z-index:100;}
+.banner_buttons .banner_h{ font-size:13px}
+.nav-tabs >li >a{padding:5px 8px}
+header.push .banner_buttons .big_btn{background-position:center left !important;line-height:49px; padding-left:76px}
+.pushit .banner_buttons{position:relative; right:0; top:0px; width:100%;font-size:14px}
+header.push .banner_buttons .banner_h{font-size:9px}
+header.push{height:435px}
+.region {  left: 290px;  position: relative;  top: -120px;  z-index: 1;}
+.topmenu ul ul{position:relative; top:0px; left:0;  border:0; display:none; width:100%;}
+.topmenu ul li:hover ul{ display:block}
+.topmenu ul ul ul{ position:relative; top:0; left:0px; display:none; width:100%;}
+.topmenu ul li:hover ul  ul{ display:none;}
+.topmenu ul ul li:hover ul{ display:block}
+.topmenu ul ul li{ display:block; float:none}
+.topmenu ul ul li a:hover,
+.topmenu ul ul li a{ border:0 none !important; background:#1A1A1A !important;}
+.topmenu ul ul li a:hover{ background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/green/menu_h.jpg) bottom center !important;}
+.topmenu ul li a{line-height:45px;padding:0 15px 0px;font-size:14px; text-transform:uppercase;  border-top:5px solid transparent;display:block;font-family:'Oswald',sans-serif;font-weight:bold;color:#aeaeae}
+.green_bg.home .container .span4 { height: 290px; }
+.banner_buttons .big_btn a {  font-size: 20px;}
+header.push .banner_buttons .banner_h {  font-size: 8px;}
+ul#myTab li a {  font-size:11px;}
+.banner_buttons .banner_h {  font-size: 10px;}
+ }
+   @media (max-width:980px){.topmenu ul li a{padding:0 8px}
+}
+/* Landscape phone to portrait tablet */
+@media (max-width:767px){.nav-collapse{background:#D7D7D7}
+.topmenu ul li{float:none;display:block}
+.topmenu ul li a{padding:0 10px;display:block;line-height:30px;border:0;border-bottom:1px dotted #c7c7c7;font-size:16px}
+.topmenu ul{ float:none; margin:0 auto;margin-bottom:10px; width:95%}
+.topmenu ul li:hover a,.topmenu ul li.active a{border:0;text-decoration:none}
+.nav-collapse{box-shadow:0 2px 2px #555}
+.camera_wrap img{max-width:none !important}
+.row-fluid [class*="span"]{padding:0 15px;padding-bottom:10px}
+body{padding-left:0px; padding-right:0px}
+.collapse{ position:absolute; top:86px; left:0; width:100%;}
+  .topmenu {
+  height: 0;
+  margin-top: 0;
+}
+/*section img{ height:auto; width:100%}
+*/.pushit .banner_buttons{position:relative; right:0; top:0px; width:100%;font-size:14px}
+header.push {height:930px; overflow:hidden;top:0}
+.carousel-inner >.item >img{ display:block; line-height:1; width:100%}
+#myTabContent .tweets ul li{ float:none;}
+input.search{ width:75%;}
+.region { display:none;}
+#banner_buttons {
+  position: relative;
+  top: -320px !important;
+}
+
+.topmenu ul ul{position:relative; top:0px; left:0;  border:0; display:none; width:100%;}
+.topmenu ul li:hover ul{ display:block}
+.topmenu ul ul ul{ position:relative; top:0; left:0px; display:none; width:100%;}
+.topmenu ul li:hover ul  ul{ display:none;}
+.topmenu ul ul li:hover ul{ display:block}
+.topmenu ul ul li{ display:block; float:none}
+.topmenu ul ul li a:hover,
+.topmenu ul ul li a{ border:0 none !important; background:#1A1A1A !important;}
+.topmenu ul ul li a:hover{ background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/green/menu_h.jpg) bottom center !important;}
+.topmenu ul li a{line-height:45px;padding:0 15px 0px;font-size:14px; text-transform:uppercase;  border-top:5px solid transparent;display:block;font-family:'Oswald',sans-serif;font-weight:bold;color:#aeaeae}
+.green_bg.home .container .span4 { height: auto; top: 0;}
+.nav-collapse>ul{ margin:10px;}
+.c_alt{ top:150px;}
+.pushit .banner_buttons {  font-size: 14px;  position: relative;  right: 0;  top: 110px;  width: 100%;}
+.banner_buttons{top:-190px; }
+#banner_buttons.alt_banner{ top: -180px !important;}
+}
+ /* Landscape phones and down */
+ @media (max-width:480px){
+input.search{ width:200px;}	
+.logo{width:78%;} 
+	 }
+.twitter-header
+{
+display:none;
+}
+
+#rightcolumnads {
+	width: 204px;
+	float: left;
+	text-align: right;
+	background: url(http://www.nsbe.org/CMSTemplates/NSBE/images/support-by-label.gif) no-repeat left center;
+	border: 8px solid #e6ece1;
+	padding: 0 0 0 15px;
+	}
+	
+ #rightcolumnads img {
+	margin: 5px 5px 0 0;
+	}
+	
+#rightcolumnads .mask {
+	position: relative;
+	width: 200px;
+	height: 130px;
+	/*overflow: hidden;*/
+	}
+
+/* FoooTER ads */
+
+#ads {
+	width: 488px;
+	/*float: left;*/
+	background: url(http://www.nsbe.org/CMSTemplates/NSBE/images/support-label.gif) no-repeat right center;
+	border: 10px solid #e6ece1;
+	margin: 0 0 20px 0;
+    margin-left: auto ;
+    margin-right: auto ; 
+	}
+	
+#ads img {
+	border: 5px solid #fff;
+	border-right: none;
+	position: absolute;
+	display: block; 
+	}
+	
+#ads .mask {
+	position: relative;
+	width: 473px;
+	height: 70px;
+	overflow: hidden; 
+	}
+.mask a {
+margin: 0;
+  padding: 0;
+}
+/* END FOOTER ADS */
+
+.phm {
+    height: 70px !important;
+  }
+
+/*REGIONS END_______________________*/
+
+/* Jigs Changes */
+#the_content u{ color:#980F1D;font-size: 120%;}
+
+.breadcrumbs {
+	font-family:'Oswald',sans-serif;
+  color: rgb(255, 255, 255);
+  padding-left: 0px;
+  padding-right: 10px;
+  padding-top: 15px;
+  padding-bottom:15px;
+  
+  margin:0 auto;
+ margin-bottom:20px;
+
+ position:relative;
+  font-size:16px;
+  color:#555;
+   border-bottom: 2px groove #fff;
+}
+.breadcrumbs span{padding-left:10px;}
+.breadcrumbs a{ text-decoration:none !important; position:relative; padding-right:15px;}
+.breadcrumbs a:before {
+ content: "\f105";font-family:'FontAwesome';
+  position:absolute; right:-7px; top:3px; font-size:34px;
+}
+
+ /*jigs*/
+/*.topmenu ul{float:right}*/
+.topmenu ul li a {
+  font-family: 'Oswald',sans-serif;
+  font-size: 11.6pt /* !important*/;
+}
+div#footer_widjet.container div#ads{float:right;}
+.fb_iframe_widget span {
+  width: 100% !important;
+}
+.fb_iframe_widget span iframe{
+  width: 100% !important;
+}
+
+#facebook{
+  background:#fff !important;
+  overflow: hidden;
+}
+
+#the_content h1{font-size:36px; text-shadow:0 1px 1px #fff; color:#2f2f2f}
+#the_content h2{font-size:30px; text-shadow:0 1px 1px #fff; color:#5c5c5c}
+#the_content h3{font-size:18px; text-shadow:0 1px 1px #fff; color:#3a5eaa}
+#the_content h4{font-size:14px; text-shadow:0 1px 1px #fff; color:#2e8616}
+#the_content h5{font-size:12px; text-shadow:0 1px 1px #fff; color:#353132}
+#the_content h6{font-size:10px; text-shadow:0 1px 1px #fff; color:#353132}
+
+#the_content ul{margin:5px 0 5px 10px;}
+#the_content ul li{margin-left:5px; list-style:disk;}
+
+#footer_widjet.container div.row-fluid div.span4 div.span6 ul li.ping{display:none;}
+#rightcolumnads {
+  width: 90%;
+}
+#rightcolumnads .mask {
+  margin: 0 auto;
+
+}
+.navbar-inner{filter:none;}
+
+.ie .topmenu ul li a{padding-right:14px;}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width:768px) and (max-width:979px){
+.collapse {  position: absolute;  top: 76px;  z-index: 100;}
+.topmenu ul li a {  color: #000;  line-height:30px;}
+ }
+@media (max-width:980px){
+.topmenu ul li a{padding:0 8px}
+.topmenu {  margin-top: 0;}
+}
+/* Landscape phone to portrait tablet */
+@media (max-width:767px){
+  .breadcrumbs {  padding-top: 10px !important;}
+.topmenu{position:absolute;}
+.navbar .btn-navbar {  top: -138px;}
+.collapse {  position: relative;  top: -65px;}
+#myTabContent .tweets ul li {  width: 93%;}
+.c_caption{top:auto; bottom:0; height:100px;}
+#bgss{height:auto !important}
+.topmenu ul li a {  color: #000;   line-height:30px;}
+}
+/* Landscape phones and down */
+@media (max-width:320px){
+  #ads{display:none;}
+  header.inner {
+  height: 98px;
+}
+#topmenu {
+  height: 95px;
+  top: 1px;
+}
+	 }
+/***********************PAGE STYLE Debayo *****************/
+#containerpager {
+    width: 600px;
+   /* margin: 0 auto;
+    padding: 20px; */
+}
+
+#containerpager .btn {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px; /*optional*/
+    color: #aaa;
+    font-size: .875em;
+}
+
+.pagination {
+    background: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.page a {
+  
+ text-decoration: none; 
+}  
+
+.page {
+    display: inline-block;
+    padding: 0px 9px;
+    margin-right: 0px;
+    border-radius: 3px;
+    border: solid 1px #c0c0c0;
+    background: #e9e9e9;
+    box-shadow: inset 0px 1px 0px rgba(255,255,255, .8), 0px 1px 3px rgba(0,0,0, .1);
+    font-size: .875em;
+    font-weight: bold;
+    text-decoration: none;
+    color: #717171 !important;
+    text-shadow: 0px 1px 0px rgba(255,255,255, 1);
+   text-decoration: none !important; 
+}
+
+.page:hover, .page.gradient:hover {
+    background: #fefefe;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FEFEFE), to(#f0f0f0));
+    background: -moz-linear-gradient(0% 0% 270deg,#FEFEFE, #f0f0f0);
+}
+
+.page.active {
+    border: none;
+    background: #616161;
+    box-shadow: inset 0px 0px 8px rgba(0,0,0, .5), 0px 1px 0px rgba(255,255,255, .8);
+    color: #f0f0f0 !important;
+    text-shadow: 0px 0px 3px rgba(0,0,0, .5);
+}
+
+.page.gradient {
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f8f8f8), to(#e9e9e9));
+    background: -moz-linear-gradient(0% 0% 270deg,#f8f8f8, #e9e9e9);
+}
+
+.pagination.dark {
+    background: #414449;
+    color: #feffff;
+}
+
+.page.dark {
+    border: solid 1px #32373b;
+    background: #3e4347;
+    box-shadow: inset 0px 1px 1px rgba(255,255,255, .1), 0px 1px 3px rgba(0,0,0, .1);
+    color: #feffff;
+    text-shadow: 0px 1px 0px rgba(0,0,0, .5);
+}
+
+.page.dark:hover, .page.dark.gradient:hover {
+    background: #3d4f5d;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#547085), to(#3d4f5d));
+    background: -moz-linear-gradient(0% 0% 270deg,#547085, #3d4f5d);
+}
+
+.page.dark.active {
+    border: none;
+    background: #2f3237;
+    box-shadow: inset 0px 0px 8px rgba(0,0,0, .5), 0px 1px 0px rgba(255,255,255, .1);
+}
+
+.page.dark.gradient {
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#565b5f), to(#3e4347));
+    background: -moz-linear-gradient(0% 0% 270deg,#565b5f, #3e4347);
+}
+/************************************************************************/
+
+.mstatement
+{
+font-size:12px;
+font-weight:bold;
+line-height: 15px !important;
+
+}
+#ctl00_cntplHolderHomePage_plcZones_lt_ZoneBody1_EventCalendar_calItems
+{
+  width:100%;
+} 
+
+/* Minification failed (line 215, error number 1031): Expected selector, found '{' */
+
+.home-toggle{
+    position: relative;
+}
+.home-toggle #divtoggle{
+    right: 15px;
+}
+
+/* Minification failed (line 261, error number 1031): Expected selector, found '{' */
