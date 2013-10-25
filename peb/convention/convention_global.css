@@ -1,0 +1,1880 @@
+@import url(http://fonts.googleapis.com/css?family=Economica:400,400italic,700,700italic);
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
+@import url(http://fonts.googleapis.com/css?family=Telex);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,300,700);
+
+h1{ font-size:24px;font-family: 'Montserrat' !important; }
+h2{font-size:20px;font-family: 'Montserrat' !important;}
+h3{font-size:18px;line-height: 5px;font-family: 'Montserrat' !important;}
+h4{font-size:16px;font-family: 'Montserrat' !important;}
+h5{font-family: 'Montserrat' !important;}
+h6{font-family: 'Montserrat' !important;}
+.fontalt{font-family:'Oswald',Verdana, Geneva, sans-serif;}
+h2.fontalt{ font-size:20px;}
+/***************************** Top Navigation **************************************/
+.container{ position:relative; width:1170px;}
+.top_nav{ background:#002047;}
+.top_nav ul{ margin:0; padding:0;}
+.ribbon{ position:absolute;right:10px; background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/ribbon.png) no-repeat; width:35px; height:57px;}
+.top_nav ul li{ color:#4f92e0; float:left; display:block; list-style:none;}
+.social{ margin-top:6px; position:relative; z-index:5}
+.social a{ background:#0270af; height:20px; width:20px; display:block; float:right; margin:6px 3px; color:#fff; text-align:center; border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px;}
+.top_strip{ font-family: 'Ubuntu', sans-serif; font-weight:300; font-size:20px; color:#000; text-align:center; text-shadow:0 -1px 0 #222; line-height:39px; font-style:italic; display:block; background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/top_strip.jpg) center top; display:none;}
+
+.user_nav{display: inline-block;list-style: none!important;margin: 0px 0px 10px 0px;float: right;font-size: 13px;}
+
+
+
+
+/* top menu */
+.top-menubg { background: none repeat scroll 0% 0% rgb(0, 32, 71); }
+.top-menu{background:rgb(0, 32, 71);} 
+.top-menu-holder ul{ z-index:100; margin:0; padding:0;}
+.top-menu-holder ul li{ float:left; margin:0; padding:0; list-style:none; position:relative; margin:5px 0; font-family: 'Telex', sans-serif;}
+.top-menu-holder ul li a{ color:#c8c6c9; line-height:32px; font-size:11px; text-transform:uppercase; padding-right:10px; font-family: 'Telex', sans-serif;}
+.top-menu-holder>ul>li:not(:last-child)>a:after{ width:2px; top:10px; height:12px; right:-1px; background:#75797d; position:absolute; content:'';}
+.top-menu-holder ul>li.HighLighted>a,.top-menu-holder ul>li:hover>a{ background:#75797d; border-radius:5px; color:#fff;}
+.top-menu-holder ul li ul{display:none; position:absolute; background:url(http://www.nsbe.org/NSBE/media/Images/PDC/top-nav-ul.png) no-repeat center top; padding-top:10px; width:235px; z-index:999}
+.top-menu-holder ul li:hover>ul{display:block; }
+.top-menu-holder ul li ul li{ float:none; background:#818486; border-bottom:1px solid #a4a7a9; margin:0; padding:0 10px; list-style:disc inside; color:#f5db02; }
+.top-menu-holder ul li ul li a{ color:#c8c6c9; line-height:32px; font-size:11px; text-transform:uppercase; padding-right:10px; font-family: 'Telex', sans-serif;}
+.top-menu-holder ul li ul li:hover a{ background:#818486; color:#f5db02;}
+
+/*
+ .container{ border:1px solid red;}
+*/
+
+/***************************** Header **************************************/
+.header{ background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/header_bg.jpg) repeat-x #fff;}
+.logo{position:absolute; top:-32px;}
+
+.navbar {
+  margin-bottom: 0px;
+  overflow: visible;
+}
+.disclose{
+	float:left;
+	text-decoration:underline;
+}
+.copyright>.container>.row-fluid{
+	margin:10px 0;
+}
+body{font-family: 'Open Sans' !important;}
+
+.address_block{font-family: 'Ubuntu', sans-serif; /* border-left:1px solid #cecece; border-right:1px solid #cecece;*/ display:block; margin:0 auto; padding:0 20px; margin-top:26px; color:#6c6c6c; }
+.address_block strong{ color:#002047;}
+.header_buttons{ margin-top:20px; height:115px;}
+.search_box{ position:relative;}
+.header_buttons img{ float:right;}
+.search_box{ position:relative; margin-top:5px;}
+.search_box input{ border:2px solid #3f7bc1; border-radius:20px; padding:5px; float:right; }
+.search_box button{ position:absolute; right:4px; top:5px; width:24px; height:24px; background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/search_icon.png); border:0;}
+.blue{ margin-bottom:10px; border-radius:20px;-moz-border-radius:20px;-webkit-border-radius:20px; background:#4677c3; font-size:14px; text-transform:uppercase; box-shadow:0 0 0; border:0; /*margin-top:15px; float:right;*/width: 150px!important;
+height: 30px;}
+.icon-caret-right:before{
+	color:#3e78c1;
+}
+
+.navbar-inner {
+
+  border: 1px solid #ca8414;
+  border-radius: 10px 10px 0px 0px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
+  min-height: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  bottom:-5px;
+  position:relative;
+  z-index:100;
+  background-image:url(http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/menu_bg.png);
+  background-repeat:repeat-x;
+  background-position:center bottom;
+  border-bottom:0;
+  border-left:0;
+  border-right:0;
+  filter:none;
+} 
+.searchbox input{
+	color:#FFF !important;
+}
+.navbar-inner ul{ margin:0; padding:0; margin-left:20px;}
+.navbar-inner ul li{ list-style:none; float:left; background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/menu_bottom.png) repeat-x center bottom; } 
+
+.navbar-inner ul li:last-child a{  background:none transparent;  }
+.navbar-inner ul li a{font-family: 'Telex', sans-serif; display:block; color:#000; padding:0 38px; font-size:16px; text-transform:uppercase; /* text-shadow:0 1px 0 #000;*/ line-height:58px; background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/menu_strip.png) repeat-y bottom right;  }
+.navbar-inner ul li.active a,
+.navbar-inner ul li:hover a{ display:block; color:#000; text-decoration:none; background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/menu_hover.png) repeat-x center bottom;    }
+
+.navbar-inner ul li.active,.navbar-inner ul li:hover{ position:relative; } 
+.navbar-inner ul ul {display:none} /*debayo may 14, 2013 */
+
+
+.navbar-inner ul li ul li.active,.navbar-inner ul li:hover{ position:relative; } 
+
+
+
+
+.slider2 li{
+	
+	width:121px !important;
+	text-align:center;
+	padding-right:12px;
+	padding-left:12px;
+}
+.bx-wrapper .bx-viewport {
+	
+	left: 0px;
+   /* margin: 0 2.5%;*/
+    width: 100% !important;
+}
+.maintop .sld1 .box {height: 284px;}
+
+.sld2 .bx-wrapper .bx-viewport {
+left: 0px;
+margin: 0 2%;
+width: 96% !important;
+}
+/*.sld3 .bx-wrapper{
+	max-width:617px !important;
+}*/
+
+.slider2 li img{
+	border:3px solid #407ac3;
+}
+.slider2 li a{
+	color:#6c6c6c;
+	text-decoration:none;
+}
+
+.slider4 .thumb{width:150px!important}
+.slider4 a{height:100px;overflow:hidden;}
+
+.header_buttons div,.header_buttons img{
+	float:left;
+}
+
+.header_buttons img{
+	margin-left:-15px;
+    height:40px;
+}
+.logo_area{margin-top:25px;}
+.skybl .rslides_tabs {
+  bottom: 417px;
+  left: 20px;
+  margin: 0 auto 25px;
+  padding: 3px 0;
+  position: absolute;
+  width: 85%;
+  z-index: 111;
+}
+
+.skybl .rslides{ z-index:1 !important;}
+ .skybl ul.rslides_tabs li.rslides_here a, .skybl .rslides_tabs li:hover a{
+  background: url("http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/slider_on.png") no-repeat scroll center center transparent;
+}
+
+ .skybl .rslides_tabs li a{
+  background: url("http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/slider_off.png") no-repeat scroll center center transparent;
+  display: block;
+  float: left;
+  height: 14px;
+  padding: 0 2px;
+  width: 14px;
+}
+ .skybl .rslides_tabs li{
+	 list-style-type:none;
+ }
+
+.rslides_tabs {
+  bottom: 0px;
+  left: 20px;
+  margin: 0 auto 25px;
+  padding: 3px 0;
+  position: absolute;
+  width: 85%;
+  z-index: 111;
+}.rslides{ z-index:1 !important;}
+ ul.rslides_tabs li.rslides_here a, .rslides_tabs li:hover a{
+  background: url("http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/slider-bullates.png") no-repeat scroll center center transparent;
+}
+
+ .rslides_tabs li a{
+  background: url("http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/slider-bullates-normal.png") no-repeat scroll center center transparent;
+  display: block;
+  float: left;
+  height: 14px;
+  padding: 0 2px;
+  width: 14px;
+}
+ .rslides_tabs li{
+	 list-style-type:none;
+ }
+.body.inner{ top:0; padding-top:25px;}
+/***************************** Slider **************************************/
+.slider{ background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/slider_bg.jpg) repeat; }
+.slider_bg_gradient{ background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/slider_bg_gradient.png) repeat-x;position:relative; z-index:5;}
+/*.slider .row-fluid .span3{ margin:0; width:25.60%}
+*/
+li.slide h4{ margin:5px 0;}
+.slider1 div.slide h4{margin:5px 0 0 0; text-align:center;}
+.slider1 div.slide a{ text-align:center; display:block; color:#999;}
+.slider .carousel{ margin:0; padding:0;}
+.slider_footer{font-family: 'Ubuntu', sans-serif; font-size:18px; background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/slider_footer.jpg) repeat-x; line-height:56px; padding:0 20px; box-shadow:0 4px 5px #ddd; border-radius: 0 0 0 10px;height: 50px; display: inline-block;
+width: 812px;}
+.slider_footer strong,.slider_footer p,.slider_footer input{ display:inline-block;}
+/*.slider_footer input{ text-align:right;}*/
+.info_block{ position:absolute; top:40px; left:50px; z-index:50;}
+.info_block br{ margin:0; padding:0; height:0; display:none;}
+.info_block h2 span {
+  background: url("http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/blud-bullet.png") no-repeat center 20px; width:10px; height:32px; display:inline-block;
+}
+.info_block h2{ color:#fff; font-weight:bolder; font-size:24px; background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/semitrans.png); display:block; padding:0 10px; margin:3px 0; }
+.btn-1,.btn-1:hover,.btn-1:active{ background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/btn_1.jpg); width:126px; color:#fff; height:32px; border-radius:0; padding:0; line-height:32px; display:inline-block; text-align:center;text-decoration:none}
+.btn-2,.btn-2:hover,.btn-2:active{ background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/btn_2.jpg);width:126px;color:#fff;height:32px; border-radius:0;padding:0;line-height:32px;display:inline-block;text-align:center; text-decoration:none}
+.btn-1:hover{background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/menu_bg.png);}
+.btn-2:hover{background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/btn_hover.png);}
+.slider_footer p{ background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/red-bullet.jpg) center left no-repeat; padding-left:15px; margin:0 5px;}
+.quicklinks{background-color:#ffffff;padding-top:5px; position:absolute; right:0; top:0; width:317px !important; border-radius:0 0 10px 0; box-shadow:0 0 5px #ddd; z-index:2;}
+
+.quicklinks h4{ background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/quicklinks.jpg) center right; height:45px; margin:0; padding:0 10px; color:#fff; font-size:16px; line-height:45px; display:block;text-transform:uppercase;}
+.quicklinks ul{font-family: 'Ubuntu', sans-serif; margin:0; background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/quicklink_bg.jpg) repeat-x #fff; padding:10px;box-shadow:0 0 5px #ddd; height:228px; border-radius:0 0 10px 0;}
+.quicklinks ul li{ border-bottom:1px dotted #ccc; line-height:30px; list-style:inside disc; color:#3f7bc1; }
+.quicklinks ul li a{ color:#777;}
+.quicklinks ul li a:hover{ text-decoration:none;}
+
+.j_scroll{ overflow:auto !important; width:360px !important; height:120px; 			clear:left;
+		margin: 10px 0 0 10px;
+		position:relative;
+		width:826px;
+		height:322px;}
+
+
+
+/***************************** Body **************************************/
+.body{ background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/body_bg.jpg) repeat-x; position:relative; top:-55px; z-index:1; padding-top:85px;}
+.box{ border-radius:10px; background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/box_gradient.jpg) repeat-x 0 56px #fff; box-shadow:0 0 5px #ddd; margin-bottom:30px;}
+.box h3{ background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/box_header.jpg) repeat-x; color:#fff; font-size:18px; text-shadow:0 1px 0 #333; padding:0 20px; height:56px; text-transform:uppercase; border-radius:10px 10px 0 0; margin:0; font-weight:bold;line-height: 57px;}
+.box h3 span{ background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/speaker_icon.jpg); width:38px; height:56px; float:right; margin-right:0px;position: relative;}
+.box .s_block{ float:left; width:124px; margin-top:30px; }
+.s_block img{ margin:0 auto; display:block; }
+.s_block h4{ color:#002047; font-size:14px; text-align:center; margin:0; }
+.s_block a{ color:#555; text-align:center; display:block;}
+.overflow{ overflow:hidden;}
+.j_inner{ width:10000px;}
+
+.box.alt{ border-radius:10px; background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/box_gradient.jpg) repeat-x 0 0px #fff; box-shadow:0 0 5px #ddd; border:2px solid #fff; }
+.box.alt h3{ background:none; color:#3c3c3c; font-size:18px; text-shadow:0 0px 0 #fff; padding:0 20px; line-height:56px; text-transform:uppercase; border-radius:10px 10px 0 0; margin:0; font-weight:bold;}
+.box.alt h3 span{ background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/video_icon.png); width:35px; height:50px; float:right; margin-right:0px; margin-top:8px;}
+.box.alt .s_block{ float:left; width:210px; margin-top:5px; }
+
+.square{ background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/header_bg.jpg) repeat-x; padding:10px 10px;}
+.title{ font-size:18px; color:#3c3c3c; background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/earth_icon.jpg) no-repeat; padding-left:40px; margin:0;  line-height:30px; margin-bottom:10px;}
+.title span{ padding-left:10px; background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/blud-bullet.jpg) no-repeat center left;float: right;font-size: 14px}
+.square .s_block{float:left; width:158px; margin-top:5px;}
+.square .s_block img{ border:5px solid #efefef;}
+.square .nav{ text-align:right;}
+.square .nav a{ text-align:right; background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/slider_buttons.jpg); width:20px; height:20px; display:inline-block; margin:10px 5px;}
+.square .nav a.prev{ background-position:top left;}
+.square .nav a.next{ background-position:top right;}
+.square .nav a.prev:hover{ background-position:bottom left;}
+.square .nav a.next:hover{ background-position:bottom right;}
+#the_content h2 {
+  color: rgb(34, 34, 34);
+  font-weight: bold;
+  line-height: 25px;
+  padding: 0;
+}
+#the_content{ font-size:12px;}
+.g_bullet {
+  background: url(http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/bullet_right.png) no-repeat;
+  display: inline-block;
+  float: left;
+  height: 32px;
+  padding: 0 40px 0 0;
+}
+.rounded{ border:5px solid #fff; box-shadow:0 0 3px #ccc; border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px; }
+img.pull-left {
+  margin: 0 20px 20px 0;
+}
+img.pull-right {
+  margin: 0 0 20px 20px;
+}
+.boxinner{ padding:20px;}
+.boxinner div#banner{width:100%!important;}
+.relative{ position:relative;}
+.quicklinks.relative{width:100% !important; display:block !important; position:relative !important;}
+.quicklinks.relative ul{ display:block; margin:0 !important; border:0; height:auto;}
+.quicklinks.relative ul li{ display:block; margin:0 !important; background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/quick_normal.jpg) center top;}
+.quicklinks.relative ul li a{ display:block; background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/quick_bullet.png) 10px center no-repeat; padding-left:30px; color:#fff; text-shadow:1px 1px 0 #727678;}
+.quicklinks.relative ul li:hover > a{ background-color:#3f7bc0;}
+.quicklinks.relative ul li:hover > ul > li > a {background-color:transparent;}
+.quicklinks.relative ul li:hover > ul > li:hover > a{ color:#3f7bc0;} 
+.quicklinks.relative ul li ul{ background:#fff; box-shadow:0 0 0 #fff; margin:0; padding:0;}
+.quicklinks.relative ul li ul li{ background:#fff; margin:0; padding:0; border-bottom:1px dotted #e8e7e7; }
+.quicklinks.relative ul li ul li a{ background:#fff url(http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/blud-bullet.jpg)  15px center no-repeat; margin:0; padding:0;  padding-left:25px; color:#85888b;  text-shadow:0px 0px 0 #fff;}
+
+
+.img-box img{max-width:250px;}
+/***************************** Mid Ad Block *********************************/
+
+#midadblock{
+  background-color: #e1e1e1;
+  box-shadow: 0 0 5px #ddd;
+  border: 2px solid #fff;
+  width:728px; 
+  height:90px;
+  margin:0px auto;
+}
+
+
+/***************************** Sidebar **************************************/
+#sidebar{ 
+	position:relative;
+	float:left;
+	
+}
+.shadow_box{ background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/slider_bg.jpg); box-shadow:0 0 5px #ccc;border-radius:8px }
+.countdown_event{
+	padding-left:10px;
+    padding-top:-5px;
+}
+.side-top{
+	margin-top:10px;
+	border-radius:5px 5px 5px 5px;
+	background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/copyright_bg.jpg);
+	line-height:20px;
+    -webkit-background-clip: padding-box; 
+  -moz-background-clip:    padding; 
+  background-clip:         padding-box;
+}
+div.side-top div.span10{
+	color:#FFF !important;
+	font-size:25px;
+	margin-top:15px;
+}
+div.side-top h3{
+	padding-left:20px;
+}
+.chat-image img{
+	padding-top:15px;
+}
+.blue-bg{
+	background:#407bc1;
+	border-radius: 0 0 5px 5px;
+	float:left;
+	height:135px;
+}
+.blue-bg div{
+	float:left;
+	font-size:12px !important;
+	line-height:15px;
+}
+.blue-bg div.span7{
+	padding-top:20px;
+	color:#FFF;	
+}
+.blue-bg div.span99 input{
+	margin-top:-15px!important;
+	margin-right:15px!important;
+}
+.blue-bg img{
+	padding:20px 0 20px 20px;
+}
+.blue-bg input{
+	float:right;
+	background:#123a6b;
+	border:0;
+	border-radius:10px;
+	margin:10px;
+	height:28px;
+	color:#fdec0c;
+	font-weight:bold;
+	width: auto;
+    padding: 10px!important;
+    line-height: 10px;
+}
+.sidebar2{
+	margin-top:30px;
+    
+}
+#sidebar-bottom{position:relative;float:left;}
+.span10 h3{text-transform:uppercase;font-size:0.7em;}
+.sidebar2 div.span12:first-child{
+	background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/chat-white.png) center left no-repeat;
+	padding-left:40px;
+    height: 36px;
+}
+div.span12 h4 {font-size:1.2em}
+.whitebg{
+	background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/sidebar2-bg.png) repeat-x;
+	vertical-align:middle;
+	height:auto;
+}
+.whitebg span img{
+	margin-top:132px;
+  /*margin-top: 80px;*/
+}
+.sidebar2 .span3:last-child span{
+	height:auto;
+}
+.sidebar2 .span3:last-child img{
+
+}
+.whitebg ul{
+	float:left;
+	clear:both;
+	margin-top:10px;
+}
+.whitebg .span9{
+	margin-top:20px;
+
+}
+.skybl{
+	 /*background: url("http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/sidebar2-sky.png") no-repeat scroll left center #E3EBF6;
+	background-size: 34px 300px;    
+   height: 162px;*/
+  height: 270px;
+	margin: 10px 0 0;
+	padding: 5px 25px 0 40px;
+	text-align:justify;
+    -webkit-border-top-right-radius: 5px;
+     -webkit-border-bottom-right-radius: 5px;
+	 border-top-right-radius: 5px;
+	 border-bottom-right-radius: 5px;
+}
+:root *>.skybl {background: url("http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/sidebar2-sky.png") no-repeat scroll left center #E3EBF6;background-size: 34px 300px;}
+
+.skybl {
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/CMSTemplates/NSBE/images/Convention/sidebar2-sky.png',sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/CMSTemplates/NSBE/images/Convention/sidebar2-sky.png',sizingMethod='scale')";
+  background-position:left;
+  background-color:#E3EBF6;
+}
+.pad{
+	padding-top:20px;
+	color:#4479bb;
+}
+.sidebar2 .span12:last-child ul li{
+	list-style-type:none;
+	float:left;
+	line-height:15px;
+}
+
+.mainbottom {margin-left:0px!important}
+.footer .time a,.footer h2{
+	color:#FFF;
+	font-size:12px;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight:800;
+}
+.time{ margin-bottom:15px;}
+.footer h2{
+	font-family: 'Economica', sans-serif;
+	text-transform:uppercase;
+	font-size:21px;
+	font-weight:700;
+}
+.footer .time_desc{
+	color:#829fc7;
+	font-size:12px;
+}
+.rss{
+float:right;
+}
+
+.searchbox{
+	position:relative;
+}
+.searchbox input {
+  background: none repeat scroll 0 0 #214E85;
+  border: medium none;
+  border-radius: 20px 20px 20px 20px;
+  float: left;
+  height: 25px;
+  padding: 5px 5px 5px 40px;
+  
+}
+.search-eml{
+background: url("http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/input-msg.png") repeat scroll 0 0 transparent !important;
+  border: 0 none;
+  height: 25px;
+  position: absolute;
+  right: 340px;
+  top: 95px !important;
+  width:25px
+}
+.searchbox .span12{
+	margin-left:0 !important;
+	padding-left:0 !important; 
+}
+.searchbox button.firstname {
+  background: url("http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/input-icon.png") repeat scroll 0 0 transparent;
+  border: 0 none;
+  height: 23px;
+  position: absolute;
+  right: 340px;
+  top: 5px;
+  width: 24px;
+}
+.searchbox button.lastname {
+  background: url("http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/input-icon.png") repeat scroll 0 0 transparent;
+  border: 0 none;
+  height: 23px;
+  position: absolute;
+  right: 340px;
+  top: 51px;
+  width: 24px;
+}
+
+.wid{
+width:auto !important;
+padding: 5px 5px 5px 16px !important;	
+}
+.copy{
+	color:#597394;
+	font-size:13px;
+}
+.colr{
+	color:#FFF;
+	
+	width:100% !important;
+}
+
+.colr a 
+{
+  margin-right:3px;
+}
+.colr div{
+	color:#ca9339;
+	width:45%;
+	margin-left:5px;
+	text-align:left;
+	padding-left:0px;
+}
+.event1{
+
+	height:48px; width:45px;
+	display:block;
+	float:left;
+	padding-left:0px;
+}
+.event2{
+	height:48px; width:45px;
+	display:block;
+	float:left;
+	padding-left:0px;
+}
+.event3{
+	height:48px; width:45px;
+	display:block;
+	float:left;
+}
+.sub{
+	display:none;
+	background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/sub-menu-bg.png) repeat-x;
+	margin-left:0 !important;
+	position:absolute;
+	width:700px;
+	height:174px;
+	border-radius:0 0 5px 5px;
+}
+div.sub ul li h3{
+	font-size:16px;
+	color:#353535;
+	margin:0;
+}
+div.sub ul:first-child{
+	padding-left:20px;
+}
+div.sub ul{
+	width:225px;
+	line-height:15px;
+	float:left;
+	padding-top:20px;
+	margin-left:0  !important;
+	margin-right:0;
+}
+div.sub li a{
+	padding-left:45px;
+	margin-right:0px;
+}
+div.sub li a,div.sub li{
+	background:none !important;
+	float:none;
+	line-height:15px;
+	font-size:10px;
+	padding-right:0;
+	color:#4079c0 !important;
+	text-shadow:none ;
+}
+.navbar-inner>ul>li:hover div.sub{
+	display:block;
+}
+.soc{
+	color:#FFF;
+	padding:5px;
+}
+.soc img{
+	padding:5px;
+}
+.rem{
+	background:none !important;
+	padding:0 !important;
+	margin:0 !important;
+	padding-left:10px !important;
+	height:32px !important;
+}
+
+.bx-controls-direction{
+	float:right;
+}
+
+
+.shadow_box .span12{ text-align:center; font-weight:bold;  color:#8a8e91; margin-bottom:5px; margin-top:10px; font-size:12px;}
+.countdown_event .span3{ text-align:center; font-weight:bolder; color:#002047; font-size:26px;}
+.countdown_event .span3 span{ display:block; font-size:12px; color:#3f7bc1; text-transform:uppercase;}
+/***************************** Footer **************************************/
+.footer{ background: #002047; border-top:10px solid #fdec0c;margin-top:0px} /*margin was not here*/
+
+.copyright{ background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/copyright_bg.jpg) repeat-x #002047;}
+
+/*.row-fluid [class*="span"]{ border:1px solid #0F3}
+*/
+
+/*
+@media(min-width:768px) and (max-width:979px) {
+}
+*/
+.colr div {
+  color: #CA9339;
+  float: left;
+  margin-left: 5px;
+  text-align: left;
+  width: 14%;
+}
+
+.colr div a {color: #fdec0c;}
+
+.colr span {
+
+  float: left;
+ 
+  text-align: left;
+  width: 9%;
+}
+.search-txt.wid{ padding-left:40px !important; width:70% !important}
+#slider5{z-index:555;}
+@media(min-width:768px) and (max-width:1030px) {
+	.blue-bg img {
+  padding: 20px 0 20px 5px;
+}
+.sld2 .bx-wrapper .bx-viewport{
+	width:85% !important;
+	margin:0 7.5%;
+}
+.event1,.event2,.event3{
+	height:35px;
+	width:30px;
+}
+.sub{
+	display:none;
+	background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/sub-menu-bg.png) repeat-x;
+	margin-left:0 !important;
+	position:absolute;
+
+	height:150px;
+	border-radius:0 0 5px 5px;
+}
+div.sub ul li h3{
+	font-size:16px;
+	color:#353535;
+	margin:0;
+}
+div.sub ul:first-child{
+	padding-left:20px;
+}
+div.sub ul{
+	width:225px;
+	line-height:15px;
+	float:left;
+	padding-top:20px;
+	margin-left:0  !important;
+	margin-right:0;
+}
+div.sub li a{
+	padding-left:30px !important;
+	margin-right:0px;
+}
+div.sub li a,div.sub li{
+	background:none !important;
+	float:none;
+	line-height:15px !important;
+	font-size:8px !important;
+	padding-right:0 !important;
+	color:#4079c0 !important;
+	text-shadow:none ;
+}
+	li [class^="icon-"], .nav li [class^="icon-"], li [class*=" icon-"], .nav li [class*=" icon-"]{
+	width:1em;
+}
+.header_buttons img{
+	width:100px;
+	margin-left:-10px;
+}
+	.searchbox .search-txt{
+		width:150px !important;
+		color:#FFF;
+	}
+	.span6 .search-txt{
+		width:100px !important;
+		
+	}
+	.searchbox button{
+		right:200px !important;
+	}
+	.searchbox input{
+		padding :5px 5px 5px 40px !important
+	}
+	.container{ width: 724px;}
+	.navbar-inner ul li a { padding: 0 14px; font-size:16px;  line-height:40px;}
+	.navbar-inner ul li:last-child a {width: 117px;}
+	#main_menu{ width:100%;}
+	.logo{ top:0; width:200px;}
+	.search_box input{ width:140px;}
+	.quicklinks ul {  height: 147px;}
+	.quicklinks ul li {  line-height: 21px;  }
+	.slider_footer{width:430px;}
+	.desktop{ display:none !important;}
+	.slider2 li{
+		  margin: 0 14px;
+	}
+	.sld1 ul{
+		margin-left:10px;
+	}
+	
+	.whitebg ul{
+		
+	}
+	.whitebg h5{
+		font-size:13px;
+		margin-top:0;
+	}
+	.skybl{
+		font-size:11px;
+	}
+	.bx-wrapper .bx-prev {
+ 	  left: -4px !important;
+	}
+	.bx-wrapper .bx-next
+	{
+		right:-1px !important;
+	}
+	.slider2 li {
+	  margin: 0 14px 0 13.5px;
+	}
+	.sld3 .bx-controls-direction a{
+		clear:both;
+		top:0;
+	}
+	.skybl{
+		padding: 5px 15px 0 40px;
+	}
+	.pad {
+ 
+ 		padding-top: 12px;
+	}
+	.nav-tabs > li > a, .nav-pills > li > a {
+	  line-height: 14px;
+	  margin-right: 0!important;
+	  padding-left: 5px !important;
+	  padding-right:5px !important;
+	}
+	.nav-tabs > li > a{
+	  font-size: 13px !important;
+	  font-weight: bold;
+	}
+	ul#myTab li {
+	  float: left;
+	  padding-right:3px;
+	
+	}
+}
+@media(max-width:767px) {
+	
+	.bx-wrapper .bx-viewport
+	{
+		width:96% !important;
+	}
+	
+	#sidebar .side-top .span10{
+		width:70%;
+		float:left;
+	}
+	#sidebar .side-top .chat-image{
+		width:29%;
+		float:left;
+		text-align:right;
+		
+		padding-right:5px;
+	}
+.navbar-inner ul li
+{
+	height:auto;
+}
+div.sub{
+	background:#FFFFFF url("http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/sub-menu-bg.png") repeat-x scroll 0 0 !important;
+	height:auto;
+	width:100%;
+	position:relative;
+	float:none;
+	clear:both;
+	content: "";
+	
+	line-height: 0;
+}
+div.sub ul{
+	width:100% !important;
+	line-height:15px;
+	float:left;
+	padding-top:20px;
+	margin-left:0  !important;
+	margin-right:0;
+	float:none;
+}
+div.sub li a{
+	padding-left:30px !important;
+	margin-right:0px;
+}
+div.sub li a,div.sub li{
+	background:none !important;
+	float:none;
+	line-height:15px !important;
+	font-size:8px !important;
+	padding-right:0 !important;
+	color:#4079c0 !important;
+	text-shadow:none ;
+}	
+
+
+	
+.container{ width: 100%;}
+.navbar-inner ul li{ float:none; display:block;}
+.navbar-inner ul li:last-child a{ width:100%; padding:0;}
+.navbar-inner ul li a {
+  background: transparent;
+  padding: 0 27px;
+  text-align:center;
+  line-height:40px;
+}
+.quicklinks{
+	z-index:0;
+}
+.header_buttons img{
+	width:100px;
+	margin-left:-15px;
+}
+.header_buttons .clearfix{
+	width:100%;
+}
+.header_buttons div, .header_buttons img{
+	float:none;
+}
+.hdr .span4{
+	height:135px;	
+	text-align:center;
+}
+
+.hdr .span3,.hdr .span5{
+	text-align:center;
+}
+.header_buttons img{
+	float:none;
+}
+.logo{
+	top:0 !important;
+	position:relative;
+}
+.social{
+	width:108px;
+	margin:0 auto;
+}
+.search_box input{
+	float:none;
+}
+.search_box form{
+	width:217px;
+	margin:0 auto;
+	position:relative;
+}
+.searchbox{
+	width:43%;
+	position:relative;
+}
+.whitebg .span3{
+	width:25%;
+	float:left;
+	margin-left:20px !important;
+}
+.footer .row-fluid{
+	padding-bottom:10px;
+}
+.copyright{
+	text-align:center;
+}
+.whitebg .span9{
+	width:65%;
+	float:left;
+}
+#myTabContent .tweets ul li{
+	width:97%;
+}
+.twitter-content
+{
+  width:97%;  
+}
+.copy span,.copy div{
+	float:left;
+}
+.colr div { width:45%; text-align:left;}
+.colr span {width:45%; text-align:right;}
+.footer .row-fluid .span4{
+	padding-left:30px;
+}
+.searchbox input{
+	clear:both;
+}
+.wid {
+  padding: 5px 5px 5px 42px !important;
+}
+
+#main_menu{
+	float:left;
+}
+#main_menu ul{
+	width:90%;
+}
+.whitebg ul{
+	float:none;
+	margin-left:20px;
+}
+li [class^="icon-"], .nav li [class^="icon-"], li [class*=" icon-"], .nav li [class*=" icon-"]{
+	width:1em;
+}
+#myTabContent .tweets ul li {
+  background: none repeat scroll 0 0 #072853;
+  float: left;
+  list-style: none outside none;
+  margin-bottom: 7px;
+  padding: 2px 0px 10px !important;
+  width:100%; 
+}
+.navbar-inner{
+	border: none !important;
+	background:none !important;
+}
+.navbar-inner ul {
+	padding: 0!important;
+	margin: 0!important;
+}
+.navbar-inner ul li{
+	background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/menu_bg.png);
+	height:62px;
+}
+.navbar-inner ul li.active a, .navbar-inner ul li:hover a{
+	background:none;
+}
+.countdown_event{
+	padding-left:0;
+}
+.navbar-inner ul li.active , .navbar-inner ul li:hover
+{
+	background:url("http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/menu_hover.png") repeat-x scroll center bottom transparent
+}
+.sld1 .bx-wrapper .bx-viewport{
+	width:85% !important;
+	margin:0 7% !important;
+}
+.slider2 li{
+	padding-left:5px;
+	padding-right:6px;
+}
+.quicklinks ul{
+	display:none;
+}
+.quicklinks{
+	display:none !important;
+}
+.bx-wrapper{
+	max-width:464px !important;
+}
+.bx-wrapper .bx-prev{
+	left:0px !important;
+}
+.sld2 .bx-wrapper .bx-viewport{
+	width:85% !important;
+	margin:0 7.5%;
+}
+.sld2 .bx-wrapper .bx-prev{
+	left:0px !important;
+}
+.sld2 .bx-wrapper .bx-next{
+	right:1px !important;
+}
+.bx-wrapper .bx-next
+{
+	right:15px !important;
+}
+.searchbox button{
+	right:0 !important;
+	margin-left:-245px;
+	position:relative;
+}
+.search-eml{
+	margin-top:-49px;
+}
+.searchbox .span4{
+	padding-left:0 !important;
+}
+.sub{
+	display:none;
+	background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/sub-menu-bg.png) repeat-x;
+	margin-left:0 !important;
+	position:absolute;
+	width:700px;
+	height:174px;
+	border-radius:0 0 5px 5px;
+	padding-bottom:10px !important;
+}
+div.sub ul:first-child{
+	padding-left:0 !important;
+}
+div.sub ul li h3{
+	font-size:16px;
+	color:#353535;
+	margin:0;
+}
+div.sub ul:first-child{
+	padding-left:20px;
+}
+div.sub ul{
+	width:225px;
+	line-height:15px;
+	float:left;
+	padding-top:20px;
+	margin-left:0  !important;
+	margin-right:0;
+}
+div.sub li a{
+	padding-left:0 !important;
+	margin-right:0px;
+}
+div.sub li a,div.sub li{
+	background:#FFF !important;
+	float:none;
+	line-height:15px;
+	font-size:10px;
+	padding-right:0;
+	color:#4079c0 !important;
+	text-shadow:none ;
+	text-align:center;
+}
+.event1,.event2,.event3{
+	width:auto;
+	float:none;
+	padding-top:20px;
+}
+.navbar-inner ul li{
+	height:auto;
+	background:url("http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/menu_bg.png") repeat center bottom;
+}
+
+}
+@media(max-width:480px) {
+	.searchbox{
+		color:#FFF;
+	}
+#main_menu ul{
+	width:80%;
+}
+.colr{
+	color:#FFF;
+	
+	width:100% !important;
+}
+.nav-tabs > li > a, .nav-pills > li > a{
+	padding-left: 4px;
+	padding-right: 3px;
+	font-size:14px !important;
+}
+#myTabContent .tweets ul li {
+  background: none repeat scroll 0 0 #072853;
+  float: left;
+  list-style: none outside none;
+  margin-bottom: 7px;
+  padding: 2px 0px 10px !important;
+  width: 97% !important;    
+}
+.colr div{
+	color:#ca9339;
+	width:45%;
+	margin-left:5px;
+	text-align:left;
+}
+.colr span{
+	width:45%;
+	text-align:right;
+	float:left;
+}	
+input, textarea, .uneditable-input{
+	width:120px;
+}
+.searchbox button{
+	margin-left:-160px;
+}
+}
+
+
+/*  Social Media CSS */
+.tab-content ul{
+	margin:0 !important;
+}
+.tab-content {
+overflow: hidden!important;
+}
+.nav-tabs{ border-bottom:0; margin-bottom:0}
+.nav-tabs >.active >a,.nav-tabs >.active >a:hover,.nav-tabs >.active >a:focus{ 
+	background-color:#0d325f; border:0; border-radius:0; color:#fff;font-weight:bold;font-size:15px;
+}
+.nav-tabs >li >a{ border:0; border-radius:0; background:#407dbc; color:#fff;font-weight:bold;font-size:15px;}
+.nav >li >a:hover,.nav >li >a:focus{background:#f4bc99; color:#fff ;/*margin-right:5px;*/}
+#myTabContent .tweets ul li{list-style:none;background:#072853;padding:2px 10px 10px 10px;margin-bottom:7px;float:left;width:90%;}
+#myTabContent .tweets ul li p{color:#7896bc;margin-bottom:2px;font-size:13px;line-height:15px}
+#myTabContent .tweets ul li a{color:#d4b828;font-size:12px;line-height:15px}
+#myTabContent .tweets ul li i{font-size:45px;color:#407bc1;float:left;margin:20px 10px 10px 10px}
+#myTabContent .tweets ul li h4{
+	color:#FFF;
+}
+.small_btn.b2{background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/orange/bullet_2_a.png) no-repeat top left #e88738}
+.small_btn.b2:hover{background-color:#d17021}
+
+
+/* END */
+
+/* BX SLIDER CSS   */
+.slider2,.slider2,.slider3{margin:0;padding:0;}
+.sld3 .bx-controls-direction a{
+		clear:both;
+		top:0 !important;
+		margin-top:65px !important;
+	}
+
+.bx-wrapper {
+    
+	position: relative;
+	margin: 0 auto 0px; /*was 60px */
+	padding: 0;
+	*zoom: 1;
+}
+
+.bx-wrapper img {
+	max-width: 100%;
+	display: block;
+	wdith:174px;
+}
+
+/** THEME
+===================================*/
+
+.bx-wrapper img
+{
+	/*border:3px solid #407ac3;*/
+}
+.sld3 .slide{
+	margin-right:20px !important;
+}
+.sld1 .bx-wrapper .bx-viewport {
+	left: 0px;
+    /*margin: 0 2.5%;*/
+    width: 96% ;
+}
+
+.bx-wrapper .bx-pager,
+.bx-wrapper .bx-controls-auto {
+	position: absolute;
+	bottom: -30px;
+	width: 100%;
+}
+.sld2 .slide{
+		margin-right:0 !important;
+	}
+/* LOADER */
+
+.bx-wrapper .bx-loading {
+	min-height: 50px;
+	background: url(http://www.nsbe.org/CMSPages/images/bx_loader.gif) center center no-repeat #fff;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2000;
+}
+
+/* PAGER */
+
+.bx-wrapper .bx-pager {
+	text-align: center;
+	font-size: .85em;
+	font-family: Arial;
+	font-weight: bold;
+	color: #666;
+	padding-top: 20px;
+}
+
+.bx-wrapper .bx-pager .bx-pager-item,
+.bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+	display: inline-block;
+	*zoom: 1;
+	*display: inline;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+	background: #666;
+	text-indent: -9999px;
+	display: block;
+	width: 10px;
+	height: 10px;
+	margin: 0 5px;
+	outline: 0;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active {
+	background: #000;
+}
+
+/* DIRECTION CONTROLS (NEXT / PREV) */
+
+.sld1 .bx-wrapper .bx-prev {
+	left: -6px;
+	background: url(http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/controls.png) no-repeat 0 -62px;
+}
+.sld1 .bx-wrapper .bx-next {
+	
+    right: -3px;
+	background: url(http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/controls.png) no-repeat -43px -62px;
+}
+.sld2 .bx-wrapper .bx-prev {
+	left: -19px;
+	background: url(http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/controls.png) no-repeat 0 -62px;
+}
+.sld2 .bx-wrapper .bx-next {
+	right: -17px;
+	background: url(http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/controls.png) no-repeat -43px -62px;
+}
+.bx-wrapper .bx-prev:hover {
+	background-position: 0 0;
+}
+
+.bx-wrapper .bx-next:hover {
+	background-position: -43px 0;
+}
+
+.bx-wrapper .bx-controls-direction a {
+	position: absolute;
+	top: 50%;
+	margin-top: -50px;
+	outline: 0;
+	width: 35px;
+	height: 62px;
+	text-indent: -9999px;
+	z-index: 9999;
+}
+
+/* AUTO CONTROLS (START / STOP) */
+
+.bx-wrapper .bx-controls-auto {
+	text-align: center;
+}
+
+.bx-wrapper .bx-controls-auto .bx-start {
+	display: block;
+	text-indent: -9999px;
+	width: 10px;
+	height: 11px;
+	outline: 0;
+	background: url(http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/controls.png) -86px -11px no-repeat;
+	margin: 0 3px;
+}
+
+.bx-wrapper .bx-controls-auto .bx-start:hover,
+.bx-wrapper .bx-controls-auto .bx-start.active {
+	background-position: -86px 0;
+}
+
+.bx-wrapper .bx-controls-auto .bx-stop {
+	display: block;
+	text-indent: -9999px;
+	width: 9px;
+	height: 11px;
+	outline: 0;
+	background: url(http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/controls.png) -86px -44px no-repeat;
+	margin: 0 3px;
+}
+
+.bx-wrapper .bx-controls-auto .bx-stop:hover,
+.bx-wrapper .bx-controls-auto .bx-stop.active {
+	background-position: -86px -33px;
+}
+
+/* PAGER WITH AUTO-CONTROLS HYBRID LAYOUT */
+
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
+	text-align: left;
+	width: 80%;
+}
+
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
+	right: 0;
+	width: 35px;
+}
+
+/* IMAGE CAPTIONS */
+
+.bx-wrapper .bx-caption {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: #666\9;
+	background: rgba(80, 80, 80, 0.75);
+	width: 100%;
+}
+
+.bx-wrapper .bx-caption span {
+	color: #fff;
+	font-family: Arial;
+	display: block;
+	font-size: .85em;
+	padding: 10px;
+}
+.bx-pager{
+	display:none;
+}
+
+.sld3 .bx-controls-direction{
+	width:50px;
+	margin:20px 10px 0 0
+}
+
+.sld4 .bx-controls-direction{
+	width:50px;
+	margin:20px 10px 0 0
+}
+div.square div div.bx-wrapper div.bx-controls div.bx-controls-direction a{background:url(http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/slider_controls.png); width:20px; height:20px; position:relative !important; padding:0 !important; margin:0 !important; display:block; text-indent:-9999px; left:0 !important; clear:none;float:left; margin-left:5px !important; }
+
+
+div.square div div.bx-wrapper div.bx-controls div.bx-controls-direction a.bx-prev{
+background-position:0 0;
+
+}
+div.square div div.bx-wrapper div.bx-controls div.bx-controls-direction a.bx-next{
+background-position:-25px 0;
+}
+
+div.square div div.bx-wrapper div.bx-controls div.bx-controls-direction a.bx-prev:hover{
+background-position:0 -21px;
+}
+div.square div div.bx-wrapper div.bx-controls div.bx-controls-direction a.bx-next:hover{
+background-position:-25px -21px; 
+}
+.time_desc a{
+	font-weight:lighter !important;
+	text-decoration:underline;
+}
+
+
+.search_boxbutton{
+
+    background: url("http://www.nsbe.org/CMSTemplates/NSBE/images/Convention/search_icon.png") repeat scroll 0 0 transparent;
+    border: 0 none !important;
+    height: 24px;
+    position: absolute;
+    right: 4px;
+    top: 5px;
+    width: 24px !important;
+   
+}
+.twitter-header
+{
+display:none;
+}
+
+.SearchResults div div
+{
+  margin-bottom: -10px; !important;
+}
+
+
+.other-events {
+    background: none repeat scroll 0 0 #EEEEEE;
+    margin: 0 0 20px;
+    padding: 0 0 20px;
+    margin-top:30px;
+}
+
+div.navbar div.navbar-inner ul li{ position:relative;}
+div.navbar div.navbar-inner ul li ul{ position:absolute; /*width:200px*/width:340px; top:55px; left:0; margin:0; padding:0; background:#3D7CC1; display:none;}
+div.navbar div.navbar-inner ul li ul li{ display:block; line-height:30px; float:none; }
+div.navbar div.navbar-inner ul li:hover > ul{background:#3D7CC1; display:block;}
+div.navbar div.navbar-inner ul li:hover ul li a{background:#3D7CC1; display:block;}
+div.navbar div.navbar-inner ul li ul li a{ color:#fff; display:block; line-height:35px; font-size: 0.8em; padding:0 10px; border-bottom:1px solid #002147; }
+div.navbar div.navbar-inner ul li ul li a:hover{color:#fff;/*background:url(http://www.nsbe.org/images/copyright_bg.jpg) repeat scroll right center ;*/ border-bottom:1px solid #C48615; }
+div.navbar div.navbar-inner ul li ul li ul{ display:none; position:absolute; /*left:200px*/left:340px; top:0; width:200px;}
+div.navbar div.navbar-inner ul li ul li:hover>ul{ display:block;}
+div.navbar div.navbar-inner ul li ul li:hover>ul li a{color:#fff; display:block; float:none; background:#94979C}
+
+@media(min-width:768px) and (max-width:1030px){
+    div.navbar div.navbar-inner ul li ul{  top:35px}
+    .navbar-inner ul li ul li a{width: 96% !important; padding:0 2% !important;}
+    .navbar-inner ul li ul li:last-child a { width: 96% !important; padding:0 2% !important;}
+    }
+@media(max-width:768px){
+    div.navbar div.navbar-inner ul li:hover{background:#3D7CC1; border-bottom:1px solid #002147 !important;}   
+    div.navbar div.navbar-inner ul li ul {  position: relative;  top: 0;  width: 100%;left:0;}
+    div.navbar div.navbar-inner ul li ul li ul { position: relative; top: 0; width: 100%; left:0;}
+}
+
+.overlay {
+    background: none repeat scroll 0 0 #FFFFFF;
+    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    display: none;
+    padding: 40px;
+    width: 576px;
+}
+.overlay_scroll {
+    font-size: 11px;
+    height: 423px;
+    margin: 30px 20px 10px 0;
+    overflow: auto;
+}
+a.close {
+    background: url("http://www.nsbe.org/media/img/overlay/close.png") no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    height: 35px;
+    position: absolute;
+    right: 5px;
+    top: 2px;
+    width: 35px;
+}
+
+#register-login{
+margin-top:11x;
+}
+#ads{
+    float: right;
+}
+#adbox{
+	width: 300px;
+	height: 250px;
+	background-color: #e1e1e1;
+	margin : 7px 7px 7px 7px;
+}
+.blue-btn{
+	font-size: 11px;
+	margin-left:10px;
+	margin-right: 10px;
+}
+#row-fluid blue-bg{
+
+}
+.right1{
+	float:left;
+	max-width: 314px;
+	padding-left:25px;
+}
+.ad2{
+	max-width:728px;
+	height: 90px;
+	background-color:#f4f4f4;
+	float: none;
+	margin:0 auto;
+}
+.botcontent{
+	width:100%;
+}
+.span4{
+	width: 625px;
+	float: left;
+	margin-left:0;
+}
+#right2{
+	max-width: 314px;
+	float:left;
+	margin-left: 53px;
+}
+/*.sld2.row-fluid {
+	width:652px;
+}
+.square.clearfix{
+	width:632px;
+}*/
+.sld2.row-fluid {
+	width:auto;
+}
+.square.clearfix{
+	width:auto;
+}
+/* Minification failed (line 1293, error number 1062): Expected semicolon or closing curly-brace, found '!important' */
+.rslides img {
+max-height: 263px!important;
+}
+
+/****TAB AND GALLERY STYLES *****/
+
+.vertical_tabs {background:#fff; border:1px solid #c2c2c2; overflow: hidden; border-radius:3px}
+.vertical_tabs .tabbable .nav {float:left; width:25%; border-right:1px solid #c2c2c2; border-bottom:1px solid #c2c2c2; margin:0 0 -1px 0;
+-webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; }
+.vertical_tabs .tabbable .nav>li {border-top:1px solid #c2c2c2;}
+.vertical_tabs .tabbable .nav>li>a {line-height:1.5; padding:15px 0; padding-left:20px; font-weight:bold; text-transform:uppercase; color:#595959; background: #ffffff;
+background: -moz-linear-gradient(left,  #ffffff 73%, #ededed 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(73%,#ffffff), color-stop(100%,#ededed));
+background: -webkit-linear-gradient(left,  #ffffff 73%,#ededed 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  #ffffff 73%,#ededed 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  #ffffff 73%,#ededed 100%); /* IE10+ */
+background: linear-gradient(to right,  #ffffff 73%,#ededed 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=1 );}
+.vertical_tabs .tabbable .nav>li>a>span {padding: 6px 7px 7px 7px; background:#646464; margin-right: 5px;line-height: 1;display: inline-block; vertical-align: middle; margin-top: -1px;
+-webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%; }
+.vertical_tabs .tabbable .nav>li>a>span span {margin: 0; vertical-align: middle;color:#fff}
+
+.vertical_tabs .tabbable .nav>li>a:hover,
+.vertical_tabs .tabbable .nav>li.active>a { color:#E5086B; }
+.vertical_tabs .tabbable .nav>li.active>a { background:#fff; margin-right: -1px;}
+.vertical_tabs .tabbable .nav>li.active>a>span,
+.vertical_tabs .tabbable .nav>li>a:hover>span { background:#E5086B; }
+.vertical_tabs .tabbable .nav>li:first-child {border-top:0;}
+.vertical_tabs .tabbable .tab-content {float:left; width:75%; padding:20px;
+-webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; }
+.vertical_tabs .tabbable .nav > li > a{
+    font-weight:normal;
+    font-family: 'DagnyOffcProBold';
+    font-size:13px;
+    word-wrap:break-word;
+}
+
+.gallery-sidebar{overflow:hidden;}
+
+.sidebar2 .gallery-sidebar ul{
+    list-style:none;
+}
+
+
+.sidebar2 .gallery-sidebar ul li{
+    margin:0;
+    padding:0;
+    margin-right:20px;
+    margin-bottom:20px;
+    float:left;
+}
+
+.sidebar2 .gallery-sidebar li a{
+    margin:0;
+    display:block;
+    width:120px;
+    height:120px;
+    oveflow:hidden;
+    position:relative;
+}
+
+.sidebar2 .gallery-sidebar .lnk{
+    text-align:right;
+    position:relative;
+}
+
+.sidebar2 .gallery-sidebar .lnk a{
+    position:absolute;
+    left: 171px;
+    right: 16px;
+    top: -37px;
+    width: 50px;
+    font-size:10px;
+    text-transform:uppercase;
+    color:#474747;
+}
+
+	@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px) {}
+
+/* iPads (landscape) // WITH META VIEWPORT ENABLED ----------- */
+@media only screen 
+and (min-width : 769px) 
+and (max-width : 1024px) {}
+/* iPads (portrait) // WITH META VIEWPORT ENABLED ----------- */
+@media only screen 
+and (min-width : 481px) 
+and (max-width : 768px) {
+	.vertical_tabs .tabbable .nav {width:35%;}
+	.vertical_tabs .tabbable .tab-content { width: 65%;}
+}
+
+@media (max-width: 767px) {
+
+	.vertical_tabs .tabbable .nav > li > a {line-height: 1.5; font-size: 13px; text-align: center; padding: 10px;}
+	.vertical_tabs .tabbable .nav > li > a > span {}
+		
+}
+@media (max-width: 320px) {	
+	.vertical_tabs .tabbable .nav > li > a {font-size: 11px;}
+	.vertical_tabs .tabbable .nav {width:35%;}
+	.vertical_tabs .tabbable .tab-content {width: 65%;}	
+}
+
+
+/****END TAB AND GALLERY STYLES *****/
+
+::-webkit-input-placeholder { color:#fff; }
+::-moz-placeholder { color:#fff; } /* firefox 19+ */
+:-ms-input-placeholder { color:#fff; } /* ie */
+input:-moz-placeholder { color:#fff; }
+
+
+.slider3 a.thumb {
+width: 194px;
+height: 92px;
+}
+
+
+
+.slider3 .slide a{
+    display:block;
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ffffff 0%, #f3f3f3 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f3f3f3)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#f3f3f3 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ffffff 0%,#f3f3f3 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ffffff 0%,#f3f3f3 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #ffffff 0%,#f3f3f3 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f3f3f3',GradientType=0 ); /* IE6-9 */
+    height:92px;
+    border:solid #eeeeee 4px;
+}
+
+.slider3 .slide a img{
+    display:block;
+}
+
+a.gallery-teaser {
+  position: relative
+}
+
+a.gallery-teaser span {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  background: rgba(255,255,255,.8);
+}
+
+a.gallery-teaser:hover span {
+  display: block
+}
+
+
+#galleria {
+    margin-bottom: 20px;
+    height:620px;
+}
+#galleria-loader {
+    height: 1px !important;
+}
+.galleria-container {
+    background: none repeat scroll 0 0 #FFFFFF;
+    overflow: hidden;
+    position: relative;
+}
+.galleria-container img {
+    -moz-user-select: none;
+}
+.galleria-stage {
+    bottom: 60px;
+    left: 10px;
+    overflow: hidden;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.galleria-thumbnails-container {
+    bottom: 0;
+    height: 50px;
+    left: 10px;
+    position: absolute;
+    right: 10px;
+    z-index: 2;
+}
+.galleria-carousel .galleria-thumbnails-list {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.galleria-thumbnails .galleria-image {
+    background: none repeat scroll 0 0 #000000;
+    border: 1px solid #000000;
+    cursor: pointer;
+    float: left;
+    height: 40px;
+    margin: 0 5px 0 0;
+    width: 60px;
+}
+.galleria-counter {
+    bottom: 10px;
+    color: #000000;
+    font: 11px/1 arial,sans-serif;
+    left: 10px;
+    position: absolute;
+    text-align: right;
+    z-index: 1;
+}
+.galleria-loader {
+    background: url("http://www.nsbe.org/NSBE/media/nsbe/Images/loader.gif") no-repeat scroll 2px 2px transparent;
+    display: none;
+    height: 25px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 25px;
+    z-index: 2;
+}
+.galleria-info {
+    left: 15px;
+    position: absolute;
+    top: 15px;
+    width: 50%;
+    z-index: 2;
+}
+.galleria-info-text {
+    background-color: #000000;
+    display: none;
+    padding: 12px;
+}
+.galleria-info-title {
+    color: #FFFFFF;
+    font: bold 12px/1.1 arial,sans-serif;
+    margin: 0 0 7px;
+}
+.galleria-info-description {
+    color: #BBBBBB;
+    font: italic 12px/1.4 georgia,serif;
+    margin: 0;
+}
+.galleria-info-close {
+    background-position: -753px -11px;
+    cursor: pointer;
+    display: none;
+    height: 9px;
+    opacity: 0.5;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 9px;
+}
+.notouch .galleria-info-close:hover {
+    opacity: 1;
+}
+.touch .galleria-info-close:active {
+    opacity: 1;
+}
+.galleria-info-link {
+    background-color: #000000;
+    background-position: -669px -5px;
+    cursor: pointer;
+    height: 20px;
+    opacity: 0.7;
+    position: absolute;
+    width: 20px;
+}
+.notouch .galleria-info-link:hover {
+    opacity: 1;
+}
+.touch .galleria-info-link:active {
+    opacity: 1;
+}
+.galleria-image-nav {
+    height: 62px;
+    left: 0;
+    margin-top: -62px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+.galleria-image-nav-left, .galleria-image-nav-right {
+    background-position: 0 46px;
+    cursor: pointer;
+    height: 124px;
+    left: 10px;
+    opacity: 0.3;
+    position: absolute;
+    width: 62px;
+    z-index: 2;
+}
+.galleria-image-nav-right {
+    background-position: -254px 46px;
+    left: auto;
+    right: 10px;
+    z-index: 2;
+}
+.notouch .galleria-image-nav-left:hover, .notouch .galleria-image-nav-right:hover {
+    opacity: 1;
+}
+.touch .galleria-image-nav-left:active, .touch .galleria-image-nav-right:active {
+    opacity: 1;
+}
+.galleria-thumb-nav-left, .galleria-thumb-nav-right {
+    background-position: -495px 5px;
+    cursor: pointer;
+    display: none;
+    height: 40px;
+    left: 0;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    width: 23px;
+    z-index: 3;
+}
+.galleria-thumb-nav-right {
+    background-position: -578px 5px;
+    border-right: medium none;
+    left: auto;
+    right: 0;
+}
+.galleria-thumbnails-container .disabled {
+    cursor: default;
+    opacity: 0.2;
+}
+.notouch .galleria-thumb-nav-left:hover, .notouch .galleria-thumb-nav-right:hover {
+    background-color: #111111;
+    opacity: 1;
+}
+.touch .galleria-thumb-nav-left:active, .touch .galleria-thumb-nav-right:active {
+    background-color: #111111;
+    opacity: 1;
+}
+.notouch .galleria-thumbnails-container .disabled:hover {
+    background-color: transparent;
+    opacity: 0.2;
+}
+.galleria-carousel .galleria-thumb-nav-left, .galleria-carousel .galleria-thumb-nav-right {
+    display: block;
+}
+.galleria-thumb-nav-left, .galleria-thumb-nav-right, .galleria-info-link, .galleria-info-close, .galleria-image-nav-left, .galleria-image-nav-right {
+    background-image: url("http://www.nsbe.org/NSBE/media/nsbe/Images/classic-map.png")!important;
+    background-repeat: no-repeat !important;
+}
+
+
+
+/* Minification failed (line 1662, error number 1043): 'progid:' is an IE-only construct that generates invalid CSS */
