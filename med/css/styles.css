@@ -1,0 +1,7 @@
+/* Base Styles */
+body { background:#E6FBF8; font-family: 'PT Sans Narrow', sans-serif; color: #666666; }
+header { width: 100%; background: #20DDBE; height: 85px; }
+label { margin-bottom: 0; }
+iframe { background: #fff url(../img/loading.gif) no-repeat center; margin-bottom: -5px; }
+textarea { margin-bottom: 9px !important; resize: none; min-height: 120px !important; }
+p, li, a, span, div, input, textarea, select, h1, h2, h3, h4, h5 { -webkit-font-smoothing: subpixel-antialiased; }
